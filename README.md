@@ -1,12 +1,12 @@
 # EvolentHealth_Contact_App
 Application Folder structure
-EvolentHealth_Contact_App 		-	Web API project
-EvolentHealth_Contact_App.BL	-   Business Logic / Domain services project
-EvolentHealth_Contact_App.DAL		- Data Access Layer project 
-EvolentHealth_Contact_App.Entities	- Project for Entities used in the application
-EvolentHealth_Contact_App.Repository - Repository Layer project
-EvolentHealth_Contact_App.Utilities  - Common utilities (e.g. Logger) project
-EvolentHealth_Contact_App.Tests		- Unit Testing Project
+1. EvolentHealth_Contact_App 		-	Web API project
+2. EvolentHealth_Contact_App.BL	-   Business Logic / Domain services project
+3. EvolentHealth_Contact_App.DAL		- Data Access Layer project 
+4. EvolentHealth_Contact_App.Entities	- Project for Entities used in the application
+5. EvolentHealth_Contact_App.Repository - Repository Layer project
+6. EvolentHealth_Contact_App.Utilities  - Common utilities (e.g. Logger) project
+7. EvolentHealth_Contact_App.Tests		- Unit Testing Project
 
 The application has been hosted on Azure as Azure App service. Databse used is Azure SQL database
 Please find below the hosted link
