@@ -29,7 +29,7 @@ Base64Encoded value(Z2FuZXNoOmV2b2xlbnQxMjM) for ganesh:evolent123 <br />
 # Libraries/packages used in the solution
 1. Unity : IOC container framework
 2. Swagger : API documentation generation
-3. EntityFramework : Code first approach and database used is Zure SQL server
+3. EntityFramework : Code first approach and database used is Azure SQL server
 4. MsTest : Unit Testing framework
 
 
