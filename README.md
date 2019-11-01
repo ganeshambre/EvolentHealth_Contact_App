@@ -22,9 +22,9 @@ Header Name  	| 	Value
 ---------------------------------------------------
 Authorization	|	Basic Z2FuZXNoOmV2b2xlbnQxMjM=
 ---------------------------------------------------
-Base64Encoded value(Z2FuZXNoOmV2b2xlbnQxMjM) for ganesh:evolent123
-username : ganesh
-password : evolent123
+Base64Encoded value(Z2FuZXNoOmV2b2xlbnQxMjM) for ganesh:evolent123 <br />
+<b>username : ganesh </b> <br />
+<b>password : evolent123 </b> <br />
 
 # Libraries/packages used in the solution
 1. Unity : IOC container framework
