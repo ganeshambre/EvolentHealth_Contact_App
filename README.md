@@ -10,9 +10,9 @@ Application Folder structure
 
 The application has been hosted on Azure as Azure App service. Databse used is Azure SQL database
 Please find below the hosted link
-Application publicily avaiable hosted link : https://evolenthealthcontactapp.azurewebsites.net
-	sample API Url : https://evolenthealthcontactapp.azurewebsites.net/api/user/all
-API documentation link : https://evolenthealthcontactapp.azurewebsites.net/swagger/ui/index
+*Application publicily avaiable hosted link : https://evolenthealthcontactapp.azurewebsites.net
+*sample API Url : https://evolenthealthcontactapp.azurewebsites.net/api/user/all
+*API documentation link : https://evolenthealthcontactapp.azurewebsites.net/swagger/ui/index
 
 Important:
 This application has basic Authentication in place. To make an API call add below Header in the api request
