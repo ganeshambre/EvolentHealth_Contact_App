@@ -8,13 +8,13 @@ Application Folder structure
 6. EvolentHealth_Contact_App.Utilities  - Common utilities (e.g. Logger) project
 7. EvolentHealth_Contact_App.Tests		- Unit Testing Project
 
-The application has been hosted on Azure as Azure App service. Databse used is Azure SQL database
-Please find below the hosted link
-*Application publicily avaiable hosted link : https://evolenthealthcontactapp.azurewebsites.net
-*sample API Url : https://evolenthealthcontactapp.azurewebsites.net/api/user/all
-*API documentation link : https://evolenthealthcontactapp.azurewebsites.net/swagger/ui/index
+The application has been hosted on Azure as Azure App service. Databse used is Azure SQL database.
+Please find below the hosted link:
+# Application publicily avaiable hosted link : https://evolenthealthcontactapp.azurewebsites.net
+# sample API Url : https://evolenthealthcontactapp.azurewebsites.net/api/user/all
+# API documentation link : https://evolenthealthcontactapp.azurewebsites.net/swagger/ui/index
 
-Important:
+# Important:
 This application has basic Authentication in place. To make an API call add below Header in the api request
 
 ---------------------------------------------------
@@ -26,7 +26,7 @@ Base64Encoded value(Z2FuZXNoOmV2b2xlbnQxMjM) for ganesh:evolent123
 username : ganesh
 password : evolent123
 
-Libraries/packages used in the solution
+# Libraries/packages used in the solution
 1. Unity : IOC container framework
 2. Swagger : API documentation generation
 3. EntityFramework : Code first approach and database used is Zure SQL server
