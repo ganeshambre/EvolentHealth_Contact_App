@@ -55,9 +55,10 @@ namespace EvolentHealth_Contact_App.Repository
                     userToUpdate.PhoneNumber = user.PhoneNumber;
                     userToUpdate.Email = user.Email;
                     userToUpdate.Status = userToUpdate.Status;
-                }
-                if (context.SaveChanges() > 0)
+                    context.SaveChanges();
                     isSuccessful = true;
+                }
+                
             }
             return isSuccessful;
         }

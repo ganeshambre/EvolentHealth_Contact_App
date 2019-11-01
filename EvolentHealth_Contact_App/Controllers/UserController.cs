@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Web.Http;
 using EvolentHealth_Contact_App.BL;
-using EvolentHealth_Contact_App.Utilities;
-using EvolentHealth_Contact_App.Filters;
 using EvolentHealth_Contact_App.Entities;
+using EvolentHealth_Contact_App.Filters;
+using EvolentHealth_Contact_App.Utilities;
 
 namespace EvolentHealth_Contact_App.Controllers
 {
@@ -91,7 +91,7 @@ namespace EvolentHealth_Contact_App.Controllers
             {
                 _logManager.LogInfo("AddUser- start");
 
-                if (!ModelState.IsValid)
+                if (user==null || !ModelState.IsValid)
                 {
                     _logManager.LogWarn("AddUser- Bad request. ModelState invalid");
                     return BadRequest(ModelState);
@@ -129,20 +129,13 @@ namespace EvolentHealth_Contact_App.Controllers
             {
                 _logManager.LogInfo("UpdateUser- start");
 
-                if (!ModelState.IsValid)
+                if (user==null || !ModelState.IsValid)
                 {
                     _logManager.LogWarn("UpdateUser- Bad request. ModelState invalid");
                     return BadRequest(ModelState);
                 }
 
-                var result = _contactService.UpdateUser(new Entities.User
-                {
-                    UserId = user.UserId,
-                    FirstName = user.FirstName,
-                    LastName = user.LastName,
-                    PhoneNumber = user.PhoneNumber,
-                    Email = user.Email
-                });
+                var result = _contactService.UpdateUser(user);
                 _logManager.LogInfo("UpdateUser- end");
                 if (result)
                     return Ok("User updated successfully");
