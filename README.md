@@ -8,7 +8,7 @@ Application Folder structure
 6. EvolentHealth_Contact_App.Utilities  - Common utilities (e.g. Logger) project
 7. EvolentHealth_Contact_App.Tests		- Unit Testing Project
 
-The application has been hosted on Azure as Azure App service. Databse used is Azure SQL database.
+The application has been hosted on Azure as Azure App service. Databse used is Azure SQL database. (connection string can be found in the EvolentHealth_Contact_App project web.config file)
 Please find below the hosted link: <br />
 <b> Application publicily avaiable hosted link : https://evolenthealthcontactapp.azurewebsites.net </b> <br/>
 <b> Sample API Url : https://evolenthealthcontactapp.azurewebsites.net/api/user/all </b> <br/>
