@@ -31,5 +31,6 @@ Base64Encoded value(Z2FuZXNoOmV2b2xlbnQxMjM) for ganesh:evolent123 <br />
 2. Swagger : API documentation generation
 3. EntityFramework : Code first approach and database used is Azure SQL server
 4. MsTest : Unit Testing framework
+5. Moq : Mocking Dependencies
 
 
